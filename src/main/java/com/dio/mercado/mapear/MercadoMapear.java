@@ -13,5 +13,5 @@ public interface MercadoMapear {
 
     Mercado toModel(MercadoDTO beerDTO);
 
-    MercadoDTO toDTO(Mercado beer);
+    MercadoDTO toDTO(Mercado mercado);
 }
